@@ -22,9 +22,8 @@ yd = exp(0.8*n).*unitstep(n+1) + unitstep(n);
 yd;
 
 stem(n, ya);
-stem(n, yb);
-stem(n, yc);
-stem(n, yd);
+%%stem(n, yc);
+%stem(n, yd);
 title('Ahmed Fuad Ali 400075937 & Daniel Jabbour 400095100');
 
 
