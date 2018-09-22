@@ -28,3 +28,21 @@ stem(n, yd);
 title('Ahmed Fuad Ali 400075937 & Daniel Jabbour 400095100');
 
 
+%% Question 2 
+% process student grade records using matlab from a CSV file
+% use matrix operations rather than matlab program loops
+
+% 2a) write a matlab that accepts a set of students as a matrix, max grade
+%     vector, and vector of column indices, generate vector of avg grades, 
+%     one for each, associated w the right column index
+
+
+
+
+
+
+
+
+
+
+
