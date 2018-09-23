@@ -36,12 +36,12 @@ title('Ahmed Fuad Ali 400075937 & Daniel Jabbour 400095100');
 %     one for each, associated w the right column index
 
 % read the grades from the CSV file
-m = csvread('course_grades_2018.csv', 1, 1, [1, 1, 20, 11]);
-max = csvread('course_grades_2018.csv', 0, 1, [0, 1, 0, 11]); 
-% third param is a vector of column indices
-r = [2:5];
+m = csvread('course_grades.csv', 1, 0, [1, 0, 20, 12]);
+max = csvread('course_grades.csv', 0, 1, [0, 1, 0, 12]); 
+% third param is a vector of column indices 
+
 % call the function csv_get_averages.m to get one for each assignment 
-grades = csv_get_averages(m, max,r);
+grades = csv_get_averages(m, max, (1, ));
 
 
 
