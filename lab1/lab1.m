@@ -35,8 +35,6 @@ title('Ahmed Fuad Ali 400075937 & Daniel Jabbour 400095100');
 %     vector, and vector of column indices, generate vector of avg grades, 
 %     one for each, associated w the right column index
 
-%% Question 2
-
 marks = csvread('course_grades_2018.csv', 1, 0);
 
 max_marks = csvread('course_grades_2018.csv', 0, 1, [0, 1, 0, 11]);
